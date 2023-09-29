@@ -1,3 +1,9 @@
+/* added * ruleset to enhance mobile UI/UX */
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -80,10 +86,6 @@ button {
 
 button:hover {
   cursor: pointer;
-}
-
-button:focus {
-  outline: 0;
 }
 
 p {
